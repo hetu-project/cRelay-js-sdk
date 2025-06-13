@@ -4,6 +4,9 @@ export * from './filter.ts'
 export { SimplePool } from './pool.ts'
 export * from './references.ts'
 
+// Export CIP modules as namespace
+export * as cip from './cip/index.ts'
+
 export * as nip04 from './nip04.ts'
 export * as nip05 from './nip05.ts'
 export * as nip10 from './nip10.ts'

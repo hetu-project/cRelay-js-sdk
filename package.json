@@ -1,11 +1,11 @@
 {
   "type": "module",
-  "name": "@ai-chen2050/crelay-js-sdk",
-  "version": "2.12.8",
+  "name": "@litterpigger/crelay-js-sdk",
+  "version": "0.0.1",
   "description": "Tools for making a causality-key of cRelay client.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hetu-project/cRelay-js-sdk.git"
+    "url": "https://github.com/qu1zzyboy/cRelay-js-sdk.git"
   },
   "files": [
     "lib"
@@ -19,6 +19,66 @@
       "import": "./lib/esm/index.js",
       "require": "./lib/cjs/index.js",
       "types": "./lib/types/index.d.ts"
+    },
+    "./cip": {
+      "import": "./lib/esm/cip/index.js",
+      "require": "./lib/cjs/cip/index.js",
+      "types": "./lib/types/cip/index.d.ts"
+    },
+    "./cip/social": {
+      "import": "./lib/esm/cip/cip06/social.js",
+      "require": "./lib/cjs/cip/cip06/social.js",
+      "types": "./lib/types/cip/cip06/social.d.ts"
+    },
+    "./cip/openresearch": {
+      "import": "./lib/esm/cip/cip05/openresearch.js",
+      "require": "./lib/cjs/cip/cip05/openresearch.js",
+      "types": "./lib/types/cip/cip05/openresearch.d.ts"
+    },
+    "./cip/governance": {
+      "import": "./lib/esm/cip/cip01/governance.js",
+      "require": "./lib/cjs/cip/cip01/governance.js",
+      "types": "./lib/types/cip/cip01/governance.d.ts"
+    },
+    "./cip/common-graph": {
+      "import": "./lib/esm/cip/cip02/common_graph.js",
+      "require": "./lib/cjs/cip/cip02/common_graph.js",
+      "types": "./lib/types/cip/cip02/common_graph.d.ts"
+    },
+    "./cip/model-graph": {
+      "import": "./lib/esm/cip/cip03/modelgraph.js",
+      "require": "./lib/cjs/cip/cip03/modelgraph.js",
+      "types": "./lib/types/cip/cip03/modelgraph.d.ts"
+    },
+    "./cip/key-token": {
+      "import": "./lib/esm/cip/cip04/keytoken.js",
+      "require": "./lib/cjs/cip/cip04/keytoken.js",
+      "types": "./lib/types/cip/cip04/keytoken.d.ts"
+    },
+    "./cip/community": {
+      "import": "./lib/esm/cip/cip07/community.js",
+      "require": "./lib/cjs/cip/cip07/community.js",
+      "types": "./lib/types/cip/cip07/community.d.ts"
+    },
+    "./cip/auth": {
+      "import": "./lib/esm/cip/auth.js",
+      "require": "./lib/cjs/cip/auth.js",
+      "types": "./lib/types/cip/auth.d.ts"
+    },
+    "./cip/constants": {
+      "import": "./lib/esm/cip/constants.js",
+      "require": "./lib/cjs/cip/constants.js",
+      "types": "./lib/types/cip/constants.d.ts"
+    },
+    "./cip/keys": {
+      "import": "./lib/esm/cip/keys.js",
+      "require": "./lib/cjs/cip/keys.js",
+      "types": "./lib/types/cip/keys.d.ts"
+    },
+    "./cip/subspace": {
+      "import": "./lib/esm/cip/subspace.js",
+      "require": "./lib/cjs/cip/subspace.js",
+      "types": "./lib/types/cip/subspace.d.ts"
     },
     "./core": {
       "import": "./lib/esm/core.js",
